@@ -1,0 +1,137 @@
+/* Create by ThangVo
+Phone: 0989464344;
+Email: ducthangict.dhtn@gmail.com;
+ */
+body{
+ 	font-family: "Open Sans" !important;
+ }
+.top-nav{
+ 	min-height:50px;
+ 	background-color: #195083 !important;
+ }
+ #menu .nav > li > a:hover, #menu .nav > li.open > a{
+    background-color: transparent !important;
+    border-bottom: 2px solid #2986C7;
+ }
+ .main-menu-header .dropdown-menu li > a:hover{
+    
+ }
+.main-menu-header .dropdown-menu>li>a {
+    display: block;
+    padding: 5px 20px !important;
+}
+#slideshow0.slideshow-blue {
+    margin: 0px !important;
+    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+#pr-website{
+    margin-top: 20px;
+}
+#pr-website .content {
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 5px;
+}
+.main-menu-header .dropdown-menu{
+    padding: 0 !important;
+}
+.title-html{
+    min-height: 60px;
+    padding-left: 70px;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#icon-w3c .title-html{
+    background:url(../image/w3c.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+#icon-design .title-html{
+    background:url(../image/design.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+#icon-quality .title-html{
+    background:url(../image/quality.png);
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+}
+.top-nav .phone-number{
+ 	background-image: url(../image/phone.png);
+ 	background-repeat: no-repeat;
+ 	min-height: 25px;
+ 	margin-top: 12px;
+ 	float: left;
+ }
+.main-menu-header .dropdown-menu{
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,.175);
+    box-shadow: 0 1px 5px rgba(0,0,0,.175);
+}
+#slideshow0.slideshow-blue .owl-item img{
+    min-width: 100%;
+}
+#slideshow0.slideshow-blue .owl-wrapper-outer
+{
+    border: none !important;
+    box-shadow:none !important;
+    -webkit-box-shadow: none !important;
+}
+.top-nav .email-top{
+ 	float: left;
+ 	background-image: url(../image/email.png);
+ 	background-repeat: no-repeat;
+ 	min-height: 25px;
+ 	margin-top: 12px;
+ }
+.top-nav .phone-number p{
+    color: white;
+    font-size: 13px;
+    padding-left: 35px;
+    padding-top: 3px;
+    padding-right: 10px;
+ }
+.top-nav .email-top p{
+    color: white;
+    font-size: 13px;
+    padding-left: 35px;
+    padding-top: 3px;
+    padding-right: 10px;
+ }
+.top-nav .search-top #search{
+ 	height: 35px;
+ 	margin-bottom: 0px;
+ 	margin-top: 8px;
+ }
+.top-nav .search-top #search .input-lg{
+ 	height: 35px;
+ }
+.top-nav .search-top #search .btn-lg {
+    font-size: 15px;
+    line-height: 8px;
+    padding: 9.5px 12px;
+    text-shadow: 0 1px 0 #FFF;
+    border-color: none;
+	background-color: white !important; 
+	background-image: linear-gradient(to bottom, white, white); 
+}
+#content-header-top{
+	min-height: 125px;
+}
+#content-header-top .logo-left {
+    margin-top: 12px;
+}
+.main-menu-header nav#menu{
+	margin-bottom: 0;
+	margin-top: 40px;
+	background-color: white;
+	background-image: none;
+	border-color: white;
+	color: #4B4B4B;
+}
+.main-menu-header nav#menu .nav > li > a {
+	color: #4B4B4B;
+	font-size: 17px;
+	text-shadow:none;
+}
