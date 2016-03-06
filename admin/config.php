@@ -22,7 +22,7 @@ define('DIR_CATALOG', 'C:/xampp/htdocs/bluesky.vn/catalog/');
 define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', '192.168.100.5');
 define('DB_USERNAME', 'cybersthang');
-define('DB_PASSWORD', 'admin');
+define('DB_PASSWORD', 'admin');sssssssssss
 define('DB_DATABASE', 'bluesky.vn');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'bs_');
