@@ -25,4 +25,4 @@ define('DB_USERNAME', 'cybersthang');
 define('DB_PASSWORD', 'admin');
 define('DB_DATABASE', 'bluesky.vn');
 define('DB_PORT', '3306');
-define('DB_PREFIX', 'bs_');
+define('DB_PREFIX', 'bs_');ssssssssssssssssssssssss
