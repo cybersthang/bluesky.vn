@@ -57,6 +57,7 @@
 2016-03-05 2:45:14 - PHP Notice:  Undefined variable: text_content_main in D:\xampp\htdocs\bluesky.vn\admin\view\template\design\layout_form.tpl on line 115
 2016-03-05 2:45:14 - PHP Notice:  Undefined variable: text_content_main in D:\xampp\htdocs\bluesky.vn\admin\view\template\design\layout_form.tpl on line 189
 2016-03-05 2:47:02 - PHP Notice:  Undefined variable: content_main in D:\xampp\htdocs\bluesky.vn\catalog\view\theme\default\template\common\home.tpl on line 6
+<<<<<<< HEAD
 2016-03-09 14:33:49 - PHP Notice:  Undefined variable: module in C:\xampp\htdocs\bluesky.vn\catalog\view\theme\default\template\common\content_main.tpl on line 4
 2016-03-09 15:45:18 - PHP Warning:  mysqli::query(): MySQL server has gone away in C:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 19
 2016-03-09 15:45:18 - PHP Warning:  mysqli::query(): Error reading result set's header in C:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 19
@@ -95,3 +96,70 @@
 2016-03-09 15:45:18 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
 2016-03-09 16:55:16 - PHP Notice:  Undefined variable: text_contact in C:\xampp\htdocs\bluesky.vn\catalog\view\theme\default\template\common\footer.tpl on line 17
 2016-03-09 17:14:08 - PHP Notice:  Undefined variable: informations in C:\xampp\htdocs\bluesky.vn\catalog\view\theme\default\template\common\footer.tpl on line 4
+=======
+2016-03-06 17:28:38 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM bs_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:28:38 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:28:38 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:28:38 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:28:38 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:28:38 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:28:38 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:28:38 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM bs_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:30:56 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:30:56 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:30:56 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:30:56 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:30:56 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:30:56 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:30:56 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM bs_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:31:39 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:31:39 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:31:39 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:31:39 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:31:39 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:31:39 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:31:39 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:32:01 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM bs_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />DELETE FROM bs_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Notice:  Error: Table 'bluesky.vn.bs_cart' doesn't exist<br />Error No: 1146<br />SELECT * FROM bs_cart WHERE customer_id = '0' AND session_id = 'mfrvc646i25pv830eav375nu35' in D:\xampp\htdocs\bluesky.vn\system\library\db\mysqli.php on line 41
+2016-03-06 17:36:43 - PHP Notice:  Trying to get property of non-object in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+2016-03-06 17:36:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\xampp\htdocs\bluesky.vn\system\library\cart.php on line 37
+>>>>>>> refs/remotes/origin/master
