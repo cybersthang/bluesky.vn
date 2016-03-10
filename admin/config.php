@@ -20,7 +20,7 @@ define('DIR_UPLOAD', 'D:/xampp/htdocs/bluesky.vn/system/storage/upload/');
 define('DIR_CATALOG', 'D:/xampp/htdocs/bluesky.vn/catalog/');
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', '192.168.100.5');
+define('DB_HOSTNAME', '192.168.100.79');
 define('DB_USERNAME', 'cybersthang');
 define('DB_PASSWORD', 'admin');
 define('DB_DATABASE', 'bluesky.vn');
