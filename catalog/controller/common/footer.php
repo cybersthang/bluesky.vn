@@ -20,18 +20,30 @@ class ControllerCommonFooter extends Controller {
 		$data['text_wishlist'] = $this->language->get('text_wishlist');
 		$data['text_newsletter'] = $this->language->get('text_newsletter');
 
+		$data['text_certification'] = $this->language->get('text_certification');
+		$data['text_address']		= $this->language->get('text_address');
+		$data['text_hotline']		= $this->language->get('text_hotline');
+		$data['text_telephone']		= $this->language->get('text_telephone');
+		$data['text_email']			= $this->language->get('text_email');
+		$data['text_yt_maketing']	= $this->language->get('text_yt_maketing');
+		$data['text_fb_maketing']	= $this->language->get('text_fb_maketing');
+		$data['text_keyword']		= $this->language->get('text_keyword');
+		$data['text_skype1']		= $this->language->get('text_skype1');
+		$data['text_skype2']		= $this->language->get('text_skype2');
+		$data['text_skype3']		= $this->language->get('text_skype3');
+
 		$this->load->model('catalog/information');
 
-		$data['informations'] = array();
-
-		foreach ($this->model_catalog_information->getInformations() as $result) {
-			if ($result['bottom']) {
-				$data['informations'][] = array(
-					'title' => $result['title'],
-					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
-				);
-			}
-		}
+//		$data['informations'] = array();
+//
+//		foreach ($this->model_catalog_information->getInformations() as $result) {
+//			if ($result['bottom']) {
+//				$data['informations'][] = array(
+//					'title' => $result['title'],
+//					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+//				);
+//			}
+//		}
 
 		$data['contact'] = $this->url->link('information/contact');
 		$data['return'] = $this->url->link('account/return/add', '', 'SSL');

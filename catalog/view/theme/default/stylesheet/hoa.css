@@ -1,0 +1,11 @@
+#footer{
+    background-color: #fff;
+}
+
+#footer h5{
+    font-size: 17pt;
+    font-weight: normal;
+    color: #4B4B4B;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #4B4B4B;
+}
