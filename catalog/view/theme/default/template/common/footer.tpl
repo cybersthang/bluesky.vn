@@ -12,7 +12,7 @@
         </ul>
       </div>
 
-      <div class="col-sm-3 block-footer">
+      <div class="col-sm-3 block-footer service-li">
         <h5><?php echo $text_service; ?></h5>
         <ul class="list-unstyled">
           <li><a href="#"><?php echo $text_keyword; ?></a></li>
@@ -36,8 +36,25 @@
         </div>
       </div>
     </div>
-    <hr>
-    <p><?php echo $powered; ?></p>
+
+    <p><?php //echo $powered; ?></p>
+  </div>
+  <div class="footer-bottom ">
+    <div class="container">
+      <ul class="icon-footer pull-left">
+        <li><a href="#"><img src="image/icon-y-08.png" alt=""></a></li>
+        <li><a href="#"><img src="image/icon-y-08.png" alt=""></a></li>
+        <li><a href="#"><img src="image/icon-y-10.png" alt=""></a></li>
+      </ul>
+      <div class="pull-right">
+        <span class="copyright">@Copyright tuvanthietkeweb.com 2016</span>
+      </div>
+    </div>
+    <div class="container test">
+      <div class="top">
+        <a href="javascript:void(0);"><img src="image/top-05.png" alt=""></a>
+      </div>
+    </div>
   </div>
 </footer>
 

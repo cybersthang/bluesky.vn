@@ -3,9 +3,53 @@
 }
 
 #footer h5{
-    font-size: 17pt;
+    font-size: 22px;
     font-weight: normal;
     color: #4B4B4B;
     padding-bottom: 8px;
+    margin-bottom: 20px;
     border-bottom: 3px solid #4B4B4B;
+}
+
+#footer .block-footer li, #footer .block-footer li a{
+    color: #4B4B4B;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+#footer .block-footer li{
+    list-style: initial;
+    margin-left: 18px;
+}
+
+#footer .certification img{
+    max-width: 100%;
+}
+.footer-bottom{
+    background: #62B045;
+    height: 60px;
+}
+.icon-footer{
+    padding: 0px;
+}
+.icon-footer li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px 0px 0px;
+    margin-right: 16px;
+}
+span.copyright {
+    margin-top: 20px;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+}
+.footer-bottom .test{
+    /*position: relative;*/
+}
+
+.footer-bottom .top a{
+    display: block;
+    width: 100px;
+    margin: -45px auto auto;
 }
