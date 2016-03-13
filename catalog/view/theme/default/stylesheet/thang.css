@@ -135,3 +135,57 @@ body{
 	font-size: 17px;
 	text-shadow:none;
 }
+.categories-website .tabs-li{
+    min-height: 70px;
+    background: #2986C7;
+    padding: 13px;
+}
+.categories-website .tabs-li a{
+    display: block;
+    border: 2px solid #FFFFFF;
+    text-decoration: none;
+}
+.categories-website .tabs-li a h3{
+    margin:0;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 44px;
+
+}
+.categories-website #shop-tabs li a{
+    background: url(../image/shop.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.categories-website #ecommerce-tabs li a{
+    background: url(../image/ecommerce.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+} a{
+    background: url(../image/ecommerce.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.categories-website #news-tabs li a{
+    background: url(../image/news.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.categories-website #other-tabs li a{
+    background: url(../image/other.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-transform: none;
+}
+.categories-website .tabs-li:hover{
+    background: #F6CD6F;
+}
+.categories-website #other-tabs li a:active,.categories-website #other-tabs li a h3:focus{
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+}
+.categories-website .active{
+    background: #F6CD6F;
+}
